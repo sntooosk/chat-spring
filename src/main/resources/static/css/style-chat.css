@@ -1,0 +1,90 @@
+    body {
+      background-color: #f4f7fc;
+      font-family: 'Arial', sans-serif;
+    }
+
+    .container-fluid {
+      min-height: 100vh;
+      padding-top: 20px;
+    }
+
+    .users-column {
+      background-color: #f8f9fa;
+      padding: 20px;
+      border-radius: 8px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+
+    .chat-column {
+      padding: 20px;
+      background-color: #fff;
+      border-radius: 8px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      margin-left: 20px;
+    }
+
+    .chat-box {
+      height: 400px;
+      overflow-y: auto;
+      background-color: #f1f1f1;
+      padding: 10px;
+      border-radius: 8px;
+      margin-bottom: 20px;
+      box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.1);
+    }
+
+    .input-group {
+      position: relative;
+    }
+
+    .emoji-button {
+      background-color: #f0f0f0;
+      border: 1px solid #ddd;
+      padding: 8px 12px;
+      border-radius: 50%;
+      font-size: 18px;
+      cursor: pointer;
+    }
+
+    .emoji-button:hover {
+      background-color: #e0e0e0;
+    }
+
+    .btn-primary {
+      background-color: #007bff;
+      border-color: #007bff;
+    }
+
+    .btn-primary:hover {
+      background-color: #0056b3;
+      border-color: #004085;
+    }
+
+    .list-group-item {
+      border: none;
+      padding: 10px 15px;
+      font-size: 16px;
+      cursor: pointer;
+    }
+
+    .list-group-item:hover {
+      background-color: #f1f1f1;
+    }
+
+    h2 {
+      margin-bottom: 20px;
+      color: #333;
+      font-size: 1.5rem;
+    }
+
+    h1 {
+      font-size: 2rem;
+      color: #333;
+    }
+
+    #emoji-picker {
+      position: absolute;
+      bottom: 50px;
+      left: 0;
+      z-index: 999;
+    }
